@@ -1,0 +1,9 @@
+name = AliyunOSS
+description = Provides Aliyun OSS stream wrapper class
+package = Aliyun
+core = 7.x
+files[] = aliyunoss.module
+files[] = aliyunoss.admin.inc
+files[] = AliyunOSSStreamWrapper.inc
+
+dependencies[] = osssdk
